@@ -17,12 +17,6 @@ for module_name in ALL_MODULES:
     else:
         raise Exception("Can't have two modules with the same name! Please change one")
 
-START_TEXT = """
-Hey fam! I'm {}, and I'm here to bring some funny maymays into your life!
-Check out /help for a full list of my commands with detailed descriptions.
-You can also check out the sourcecode for the bot [here](https://github.com/skittles9823/skitt_bot)
-""".format(dispatcher.bot.first_name)
-
 HELP_TEXT = """
 Ohai, I see you'd like to know what memes I have for sale.
 Well, here you go.
